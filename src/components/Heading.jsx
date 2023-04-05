@@ -1,9 +1,9 @@
 import React from 'react'
 
-const date = new Date();
-const currentTime = date.getHours();
 
 function Heading () {
+  const date = new Date();
+  const currentTime = date.getHours();
   let greeting;
 
   const customStyle = {
